@@ -2,7 +2,7 @@
 title: "팔머 펭귄 데이터 분석"
 author: "12 조 - 홍주형, 황지융"
 date: "2025-03-07"
-categories: [code, analysis]
+categories: [analysis, code]
 image: "penguins.png"
 ---
 
