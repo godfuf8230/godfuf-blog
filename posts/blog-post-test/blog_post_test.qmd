@@ -1,0 +1,22 @@
+---
+title: "블로그 포스트 연습"
+author: "godfuf"
+date: "2025-03-07"
+categories: [quarto, code]
+---
+
+## 파이썬 넘파이 연습을 해봅시다
+
+먼저 넘파이를 불러옵시다.
+```{python}
+import numpy as np
+```
+
+
+```{python}
+## 행렬 생성 예제
+# 두 개의 벡터를 합쳐 행렬 생성
+matrix = np.column_stack((np.arange(1, 5),
+                        np.arange(12, 16)))
+print("행렬:\n", matrix)
+```

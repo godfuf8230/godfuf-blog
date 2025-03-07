@@ -1,0 +1,12 @@
+{
+  "hash": "159e111afe6990d3ed57d3a825b2312f",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"블로그 포스트 연습\"\nauthor: \"godfuf\"\ndate: \"2025-03-07\"\ncategories: [quarto, code]\n---\n\n\n## 파이썬 넘파이 연습을 해봅시다\n\n먼저 넘파이를 불러옵시다.\n\n::: {#984ef5df .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\n```\n:::\n\n\n::: {#85a80712 .cell execution_count=2}\n``` {.python .cell-code}\n## 행렬 생성 예제\n# 두 개의 벡터를 합쳐 행렬 생성\nmatrix = np.column_stack((np.arange(1, 5),\n                        np.arange(12, 16)))\nprint(\"행렬:\\n\", matrix)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n행렬:\n [[ 1 12]\n [ 2 13]\n [ 3 14]\n [ 4 15]]\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "blog_post_test_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
